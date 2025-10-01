@@ -2,19 +2,22 @@
 
 //font
 // 본문(paragraph) 사이즈
-$body-fz: var(--text-body-default);
+$body-fz: 14px;
 
 // 본문(paragraph) 기본 컬러
 $base-color: #34425C;
 
 // 본문 행간 비율
-$base-line-height: var(--base-line-height);
+$base-line-height: 1.4;
 
 // 적용 웹 폰트
-$font-ko: 'SDGothicNeoa';
+$font-ko: 'NotoSansKR';
+$font-ko2: 'Paperlogy';
+$font-ko3: 'GmarketSans';
+$font-ko4: 'Cafe24Shiningstar';
 
 $font-family-ko: $font-ko, sans-serif;
-$sdGothic: $font-ko, sans-serif;
+$notoSans: $font-ko, sans-serif;
 
 //경로 url
 $base-url: '../';

@@ -1,10 +1,28 @@
 @charset "UTF-8";
 @use "../util" as *;
 
-$fonts-style-ko: (dRg: 400, fSm: 600, hExBd: 800);
+$fonts-style-ko: (Thin: 100, DemiLight: 200, Light: 300, Regular: 400, Medium: 500, Bold: 700, Black: 900);
+$fonts-style-ko2: (3Light: 300, 4Regular: 400, 6Semibold: 600);
+$fonts-style-ko3: (Light: 300, Medium: 500, Bold: 700);
+$fonts-style-ko4: (Regular: 400);
 
 @each $font, $weight in $fonts-style-ko{
     @font-face{
-        @include font(#{$font-ko}, '#{$font-ko}-#{$font}', 'opentype', #{$weight});
+        @include font(#{$font-ko}, '#{$font-ko}-#{$font}', 'woff', #{$weight});
+    }
+}
+@each $font, $weight in $fonts-style-ko2{
+    @font-face{
+        @include font(#{$font-ko2}, '#{$font-ko2}-#{$font}', 'woff', #{$weight});
+    }
+}
+@each $font, $weight in $fonts-style-ko3{
+    @font-face{
+        @include font(#{$font-ko3}, '#{$font-ko3}-#{$font}', 'woff', #{$weight});
+    }
+}
+@each $font, $weight in $fonts-style-ko4{
+    @font-face{
+        @include font(#{$font-ko4}, '#{$font-ko4}-#{$font}', 'woff', #{$weight});
     }
 }
