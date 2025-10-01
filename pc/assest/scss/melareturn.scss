@@ -3,7 +3,7 @@
 @use "./base" as *;
 @use "sass:list";
 
-.melareturn{overflow: auto hidden; min-width: calc(1440px + 40px * 2); font-size: $body-fz; font-weight: 400; line-height: $base-line-height; color: $base-color;}
+.melareturn{overflow: auto hidden; min-width: calc(1440px + 40px * 2); font-size: $body-fz; font-weight: 400; line-height: $base-line-height; color: $base-color; background-color: #fff;}
 .melareturn strong{font-weight: 700;}
 
 .melareturn section{padding: 120px 0;}
@@ -12,6 +12,7 @@
 .melareturn .c-primary{color: #34425C;}
 .melareturn .highlight{position: relative;}
 .melareturn .highlight::before{content: ''; display: block; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); margin-top: -2px; width: calc(100% + 8px); height: calc(100% + 6px); background-color: #fff; z-index: -1;}
+.melareturn .highlight.blue::before{background-color: #BCE0F6;}
 .melareturn .underline{position: relative; z-index: 0;}
 .melareturn .underline::before{content: ''; display: block; position: absolute; bottom: 5px; left: 0; width: 100%; height: 18px; background-color: #BCE0F6; z-index: -1;}
 
@@ -30,6 +31,7 @@
 
 .melareturn .notice-txt{font-size: 18px; color: rgba(52, 66, 92, 0.8)}
 
+.melareturn .img-wrap{font-size: 0;}
 .melareturn .img-wrap img{width: 100%; height: 100%; object-fit: cover;}
 
 .melareturn .f-paperlogy{font-family: 'paperlogy', sans-serif;}
@@ -53,16 +55,6 @@
 //ico
 [class*="ico-"]::before{content: ''; display: block; background-repeat: no-repeat; background-size: 100% auto; background-position: center;}
 .ico{
-	// $banner-icons: 'info', 'alarm';
-
-	// @each $icon in $banner-icons{
-	// 	&-banner-#{$icon}::after{
-	// 		flex-shrink: 0;
-	// 		width: 72px;
-	// 		height: 72px;
-	// 		background-image: url('#{$base-url}img/ico-banner-#{$icon}.png');
-	// 	}
-	// }
 	&-check::before{width: 40px; height: 40px; background-image: url('#{$base-url}img/ico-check.png');}
 
 	@for $i from 1 through 3 {
@@ -73,15 +65,6 @@
       background-image: url('#{$base-url}img/ico-#{$name}#{$i}.png');
     }
   }
-
-	// @for $i from 1 through 5 {
-	// 	$name: part;
-  //   &-#{$name}#{$i}::before{
-	// 		width: 24px;
-	// 		height: 24px;
-  //     background-image: url('#{$base-url}img/ico-#{$name}#{$i}.png');
-  //   }
-  // }
 
 	@for $i from 1 through 3 {
 		$name: info;
@@ -95,6 +78,7 @@
 	@for $i from 1 through 5 {
 		$name: circle;
     &-#{$name}#{$i}::before{
+      flex-shrink: 0;
 			width: 156px;
 			height: 156px;
       background-image: url('#{$base-url}img/ico-#{$name}#{$i}.png');
@@ -114,7 +98,9 @@
 .melareturn .sec-banner .txt-wrap{text-align: center;}
 .melareturn .sec-banner .txt-wrap .txt{font-size: 40px; font-weight: 200;}
 .melareturn .sec-banner .txt-wrap .txt.large{margin-top: 30px; font-size: 50px; font-weight: 200;}
-.melareturn .sec-banner .txt-wrap .quotes{font-family: 'Gmarket Sans', sans-serif; font-size: 60px; font-weight: 700;}
+// .melareturn .sec-banner .txt-wrap .quotes{font-family: 'Gmarket Sans', sans-serif; font-size: 60px; font-weight: 700;}
+.melareturn .sec-banner .txt-wrap .quotes{display: inline-block; width: 30px; height: 30px; @include bg('ico-quotes.png'); vertical-align: top;}
+.melareturn .sec-banner .txt-wrap .quotes.end{transform: rotate(180deg);}
 
 .melareturn .sec-01{position: relative; background-color: #F3F3F3;}
 .melareturn .sec-01 .box-wrap{display: grid; grid-template-columns: repeat(2, 1fr); gap: 40px;}
@@ -175,7 +161,7 @@
 .melareturn .sec-05 .skin-type-wrap .tit{text-align: center;}
 .melareturn .sec-05 .full-img-wrap{margin: 100px 0;}
 
-.melareturn .sec-06{@include bg('sec07-bg.jpg');}
+.melareturn .sec-06{@include bg('sec06-bg.jpg');}
 .melareturn .sec-06 .inner{display: flex; align-items: center; gap: 20px;}
 .melareturn .sec-06 .txt-wrap{width: 48%;}
 .melareturn .sec-06 .txt-wrap .tit.line::after{content: ''; display: block; margin: 20px 0; width: 2px; height: 50px; background-color: #34425C;}
@@ -191,18 +177,19 @@
 
 .melareturn .sec-07 .type-list{display: flex; gap: 30px;}
 .melareturn .sec-07 .type-list li{flex: 1;}
-.melareturn .sec-07 .type-list li:nth-child(1) .tit-wrap{background-color: rgba(188, 244, 246, 0.3);}
-.melareturn .sec-07 .type-list li:nth-child(2) .tit-wrap{background-color: rgba(188, 244, 246, 0.5);}
-.melareturn .sec-07 .type-list li:nth-child(3) .tit-wrap{background-color: rgba(188, 244, 246, 1);}
-.melareturn .sec-07 .type-list li:nth-child(1) .img-wrap{border: 1px solid rgba(188, 244, 246, 0.3);}
-.melareturn .sec-07 .type-list li:nth-child(2) .img-wrap{border: 1px solid rgba(188, 244, 246, 0.5);}
-.melareturn .sec-07 .type-list li:nth-child(3) .img-wrap{border: 1px solid rgba(188, 244, 246, 1);}
+.melareturn .sec-07 .type-list li:nth-child(1) .tit-wrap{background-color: #EBF6FC;}
+.melareturn .sec-07 .type-list li:nth-child(2) .tit-wrap{background-color: #DDEFFB;}
+.melareturn .sec-07 .type-list li:nth-child(3) .tit-wrap{background-color: #BCE0F6;}
+.melareturn .sec-07 .type-list li:nth-child(1) .img-wrap{border: 1px solid #EBF6FC;}
+.melareturn .sec-07 .type-list li:nth-child(2) .img-wrap{border: 1px solid #DDEFFB;}
+.melareturn .sec-07 .type-list li:nth-child(3) .img-wrap{border: 1px solid #BCE0F6;}
 .melareturn .sec-07 .type-list li .tit-wrap{padding: 30px; border-radius: 30px 30px 0 0;}
 .melareturn .sec-07 .type-list li .tit-wrap .tit{font-family: 'Gmarket Sans', sans-serif; font-size: 24px; font-weight: 700;}
 .melareturn .sec-07 .type-list li .tit-wrap .desc{margin-top: 10px; font-size: 18px;}
 .melareturn .sec-07 .type-list li .img-wrap{padding: 30px; border-radius:  0 0 30px 30px}
 .melareturn .sec-07 .type-list li .img-wrap .txt{padding: 6px 20px; width: fit-content; font-size: 16px; font-weight: 700; color: #fff; background-color: #34425C; border-radius: 100px;}
 
+.melareturn .sec-08{background-color: #DDEFFB;}
 .melareturn .sec-08 .thumb-list{display: flex; gap: 30px;}
 .melareturn .sec-08 .thumb-list li{overflow: hidden; position: relative; flex: 1; border-radius: 30px;}
 .melareturn .sec-08 .thumb-list li .txt-wrap{position: absolute; bottom: 0; left: 0; padding: 30px; width: 100%; font-size: 18px; font-weight: 700; color: #fff; background: linear-gradient(0deg,rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0) 100%); z-index: 1;}
