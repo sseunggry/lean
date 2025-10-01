@@ -5,10 +5,10 @@
 $body-fz: var(--text-body-default);
 
 // 본문(paragraph) 기본 컬러
-$base-color: var(--color-text-base);
+$base-color: #34425C;
 
 // 본문 행간 비율
-$base-line-height: calc($body-fz * var(--base-line-height));
+$base-line-height: var(--base-line-height);
 
 // 적용 웹 폰트
 $font-ko: 'SDGothicNeoa';

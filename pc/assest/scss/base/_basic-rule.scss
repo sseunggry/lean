@@ -2,16 +2,16 @@
 @use "../util" as *;
 
 //default
-html{
-    font-size: $body-fz;
-    font-weight: 400;
-    line-height: $base-line-height;
-    color: $base-color;
+// html{
+//     font-size: $body-fz;
+//     font-weight: 400;
+//     line-height: $base-line-height;
+//     color: $base-color;
 
-    &[lang="ko-KR"], &[lang="ko"]{
-        font-family: $font-family-ko;
-    }
-}
+//     &[lang="ko-KR"], &[lang="ko"]{
+//         font-family: $font-family-ko;
+//     }
+// }
 
 /* blind */
 .blind {
