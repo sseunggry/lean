@@ -13,7 +13,7 @@ $fonts-style-ko4: (Regular: 400);
 }
 @each $font, $weight in $fonts-style-ko2{
     @font-face{
-        @include font(#{$font-ko2}, '#{$font-ko2}-#{$font}', 'woff', #{$weight});
+        @include font(#{$font-ko2}, '#{$font-ko2}-#{$font}', 'truetype', #{$weight});
     }
 }
 @each $font, $weight in $fonts-style-ko3{

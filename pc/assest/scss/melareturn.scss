@@ -24,7 +24,7 @@
 .melareturn .sec-tit-wrap .desc{font-size: 18px; color: rgba(52, 66, 92, 0.7);}
 .melareturn .sec-tit-wrap .sub-tit{font-size: 50px;}
 .melareturn .sec-tit-wrap:has([class*="ico-"]) .sub-tit{display: flex; gap: 10px; align-items: center; justify-content: center;}
-.melareturn .sec-tit-wrap .tag{padding: 14px 30px; margin: 0 auto 20px; width: fit-content; font-family: 'Gmarket Sans', sans-serif; font-size: 20px; font-weight: 700; color: #fff; background-color: #34425C; border-radius: 100px;}
+.melareturn .sec-tit-wrap .tag{padding: 14px 30px; margin: 0 auto 20px; width: fit-content; font-family: 'GmarketSans', sans-serif; font-size: 20px; font-weight: 700; color: #fff; background-color: #34425C; border-radius: 100px;}
 
 .melareturn .tit{font-size: 32px;}
 .melareturn .tit.large{font-size: 50px;}
@@ -34,11 +34,11 @@
 .melareturn .img-wrap{font-size: 0;}
 .melareturn .img-wrap img{width: 100%; height: 100%; object-fit: cover;}
 
-.melareturn .f-paperlogy{font-family: 'paperlogy', sans-serif;}
-.melareturn .f-shiningstar{font-family: 'Cafe24 Shiningstar', sans-serif;}
+.melareturn .f-paperlogy{font-family: 'Paperlogy', sans-serif;}
+.melareturn .f-shiningstar{font-family: 'Cafe24Shiningstar', sans-serif;}
 .melareturn .blind {@include blind();}
 
-.melareturn .deco-txt{font-family: 'Gmarket Sans', sans-serif; font-size: 120px; font-weight: 700; color: rgba(52, 66, 92, 0.2);}
+.melareturn .deco-txt{font-family: 'GmarketSans', sans-serif; font-size: 120px; font-weight: 700; color: rgba(52, 66, 92, 0.2);}
 .melareturn .deco-txt.left{position: absolute; top: 200px; left: 0; transform: rotate(90deg);}
 .melareturn .deco-txt.right{position: absolute; bottom: 240px; right: -70px; transform: rotate(90deg);}
 
@@ -98,7 +98,7 @@
 .melareturn .sec-banner .txt-wrap{text-align: center;}
 .melareturn .sec-banner .txt-wrap .txt{font-size: 40px; font-weight: 200;}
 .melareturn .sec-banner .txt-wrap .txt.large{margin-top: 30px; font-size: 50px; font-weight: 200;}
-// .melareturn .sec-banner .txt-wrap .quotes{font-family: 'Gmarket Sans', sans-serif; font-size: 60px; font-weight: 700;}
+// .melareturn .sec-banner .txt-wrap .quotes{font-family: 'GmarketSans', sans-serif; font-size: 60px; font-weight: 700;}
 .melareturn .sec-banner .txt-wrap .quotes{display: inline-block; width: 30px; height: 30px; @include bg('ico-quotes.png'); vertical-align: top;}
 .melareturn .sec-banner .txt-wrap .quotes.end{transform: rotate(180deg);}
 
@@ -134,7 +134,7 @@
 .melareturn .sec-05{@include bg('sec05-bg.jpg', $color: #E7F2F9); text-align: center;}
 .melareturn .sec-05 .skin-type-wrap{display: flex; flex-direction: column; gap: 100px;}
 .melareturn .sec-05 .skin-type-wrap .comparison-list > li .comparison-img-wrap{position: relative;}
-.melareturn .sec-05 .skin-type-wrap .comparison-list > li .comparison-img-wrap .txt-wrap{position: absolute; bottom: 0; left: 0; padding: 16px 40px; min-width: 180px; font-family: 'Gmarket Sans', sans-serif; text-align: left; border-top-right-radius: 30px;}
+.melareturn .sec-05 .skin-type-wrap .comparison-list > li .comparison-img-wrap .txt-wrap{position: absolute; bottom: 0; left: 0; padding: 16px 40px; min-width: 180px; font-family: 'GmarketSans', sans-serif; text-align: left; border-top-right-radius: 30px;}
 .melareturn .sec-05 .skin-type-wrap .comparison-list > li .comparison-img-wrap.before .txt-wrap{background-color: #fff;}
 .melareturn .sec-05 .skin-type-wrap .comparison-list > li .comparison-img-wrap .color-list{
 	position: absolute; top: 50%; right: 20px; transform: translateY(-50%); display: flex; flex-direction: column; gap: 10px; padding: 20px 0; width: 100px; height: 100%;
@@ -184,7 +184,7 @@
 .melareturn .sec-07 .type-list li:nth-child(2) .img-wrap{border: 1px solid #DDEFFB;}
 .melareturn .sec-07 .type-list li:nth-child(3) .img-wrap{border: 1px solid #BCE0F6;}
 .melareturn .sec-07 .type-list li .tit-wrap{padding: 30px; border-radius: 30px 30px 0 0;}
-.melareturn .sec-07 .type-list li .tit-wrap .tit{font-family: 'Gmarket Sans', sans-serif; font-size: 24px; font-weight: 700;}
+.melareturn .sec-07 .type-list li .tit-wrap .tit{font-family: 'GmarketSans', sans-serif; font-size: 24px; font-weight: 700;}
 .melareturn .sec-07 .type-list li .tit-wrap .desc{margin-top: 10px; font-size: 18px;}
 .melareturn .sec-07 .type-list li .img-wrap{padding: 30px; border-radius:  0 0 30px 30px}
 .melareturn .sec-07 .type-list li .img-wrap .txt{padding: 6px 20px; width: fit-content; font-size: 16px; font-weight: 700; color: #fff; background-color: #34425C; border-radius: 100px;}
@@ -201,7 +201,7 @@
 .melareturn .sec-09 .info-wrap .txt-list{flex: 1; display: flex; flex-direction: column; gap: 20px;}
 .melareturn .sec-09 .info-wrap .txt-list li{flex: 1; display: flex; align-items: center; gap: 20px; padding: 0 40px; font-size: 24px; background: linear-gradient(90deg,rgba(221, 239, 251, 1) 0%, rgba(221, 239, 251, 0) 100%); border-radius: 20px;}
 .melareturn .sec-09 .info-wrap .txt-list li strong{font-size: 32px;}
-.melareturn .sec-09 .info-wrap .txt-list li .num{display: flex; align-items: center; justify-content: center; width: 80px; height: 80px; font-family: 'Gmarket Sans', sans-serif; font-size: 28px; font-weight: 700; color: rgba(52, 66, 92, 0.7); background-color: #fff; border-radius: 50%;}
+.melareturn .sec-09 .info-wrap .txt-list li .num{display: flex; align-items: center; justify-content: center; width: 80px; height: 80px; font-family: 'GmarketSans', sans-serif; font-size: 28px; font-weight: 700; color: rgba(52, 66, 92, 0.7); background-color: #fff; border-radius: 50%;}
 .melareturn .sec-09 .info-wrap .img-wrap{overflow: hidden; position: relative; flex: 1; border-radius: 20px;}
 .melareturn .sec-09 .info-wrap .img-wrap::before{content: ''; display: block; width: 100%; padding-top: 77%;}
 .melareturn .sec-09 .info-wrap .img-wrap img{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
@@ -235,4 +235,4 @@
 .melareturn .sec-12 .caution-list{margin: 0 auto; width: 800px;}
 .melareturn .sec-12 .caution-list li{display: flex; align-items: center; gap: 20px; margin-bottom: 4px; padding: 4px; font-size: 20px; font-weight: 500; border-radius: 50px; background-color: rgba(255, 255, 255, 0.4);}
 .melareturn .sec-12 .caution-list li:last-child{margin-bottom: 0;}
-.melareturn .sec-12 .caution-list li .num{display: flex; align-items: center; justify-content: center; width: 60px; height: 60px; font-family: 'Gmarket Sans', sans-serif; font-size: 18px; font-weight: 700; background-color: #fff; border-radius: 50%;}
+.melareturn .sec-12 .caution-list li .num{display: flex; align-items: center; justify-content: center; width: 60px; height: 60px; font-family: 'GmarketSans', sans-serif; font-size: 18px; font-weight: 700; background-color: #fff; border-radius: 50%;}

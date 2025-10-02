@@ -168,19 +168,19 @@ cite {
 }
 @font-face {
   font-family: "Paperlogy";
-  src: url("../font/Paperlogy-3Light.woff") format("woff");
+  src: url("../font/Paperlogy-3Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: "Paperlogy";
-  src: url("../font/Paperlogy-4Regular.woff") format("woff");
+  src: url("../font/Paperlogy-4Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Paperlogy";
-  src: url("../font/Paperlogy-6Semibold.woff") format("woff");
+  src: url("../font/Paperlogy-6Semibold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
@@ -316,7 +316,7 @@ cite {
   padding: 3.73vw 8vw;
   margin: 0 auto 2.67vw;
   width: fit-content;
-  font-family: "Gmarket Sans", sans-serif;
+  font-family: "GmarketSans", sans-serif;
   font-size: 3.73vw;
   font-weight: 700;
   color: #fff;
@@ -344,11 +344,11 @@ cite {
 }
 
 .melareturn .f-paperlogy {
-  font-family: "paperlogy", sans-serif;
+  font-family: "Paperlogy", sans-serif;
 }
 
 .melareturn .f-shiningstar {
-  font-family: "Cafe24 Shiningstar", sans-serif;
+  font-family: "Cafe24Shiningstar", sans-serif;
 }
 
 .melareturn .blind {
@@ -769,7 +769,7 @@ cite {
   left: 0;
   padding: 3.2vw 8vw;
   min-width: 30.4vw;
-  font-family: "Gmarket Sans", sans-serif;
+  font-family: "GmarketSans", sans-serif;
   text-align: center;
   line-height: 1;
   border-top-right-radius: 8vw;
@@ -958,7 +958,7 @@ cite {
 }
 
 .melareturn .sec-07 .type-list li .tit-wrap .tit {
-  font-family: "Gmarket Sans", sans-serif;
+  font-family: "GmarketSans", sans-serif;
   font-size: 4.8vw;
   font-weight: 700;
 }
@@ -1049,7 +1049,7 @@ cite {
   margin-bottom: 2.67vw;
   width: 16vw;
   height: 16vw;
-  font-family: "Gmarket Sans", sans-serif;
+  font-family: "GmarketSans", sans-serif;
   font-size: 5.33vw;
   font-weight: 700;
   color: rgba(52, 66, 92, 0.7);
@@ -1196,7 +1196,7 @@ cite {
   justify-content: center;
   width: 13.33vw;
   height: 13.33vw;
-  font-family: "Gmarket Sans", sans-serif;
+  font-family: "GmarketSans", sans-serif;
   font-size: 3.73vw;
   font-weight: 700;
   background-color: #fff;

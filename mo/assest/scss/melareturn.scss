@@ -25,7 +25,7 @@
 .melareturn .sec-tit-wrap .desc{font-size: 3.73vw; color: rgba(52, 66, 92, 0.7);}
 .melareturn .sec-tit-wrap .sub-tit{margin-bottom: 1.07vw; font-size: 7.47vw;}
 .melareturn .sec-tit-wrap:has([class*="ico-"]) .sub-tit{display: flex; gap: 2.67vw; align-items: center; justify-content: center;}
-.melareturn .sec-tit-wrap .tag{padding: 3.73vw 8.00vw; margin: 0 auto 2.67vw; width: fit-content; font-family: 'Gmarket Sans', sans-serif; font-size: 3.73vw; font-weight: 700; color: #fff; background-color: #34425C; border-radius: 26.67vw;}
+.melareturn .sec-tit-wrap .tag{padding: 3.73vw 8.00vw; margin: 0 auto 2.67vw; width: fit-content; font-family: 'GmarketSans', sans-serif; font-size: 3.73vw; font-weight: 700; color: #fff; background-color: #34425C; border-radius: 26.67vw;}
 
 .melareturn .tit{font-size: 5.33vw;}
 .melareturn .tit.large{font-size: 7.47vw;}
@@ -34,8 +34,8 @@
 
 .melareturn .img-wrap img{width: 100%; height: 100%; object-fit: cover;}
 
-.melareturn .f-paperlogy{font-family: 'paperlogy', sans-serif;}
-.melareturn .f-shiningstar{font-family: 'Cafe24 Shiningstar', sans-serif;}
+.melareturn .f-paperlogy{font-family: 'Paperlogy', sans-serif;}
+.melareturn .f-shiningstar{font-family: 'Cafe24Shiningstar', sans-serif;}
 .melareturn .blind {@include blind();}
 
 .melareturn .comparison-list > li{position: relative; display: flex; flex-direction: column; gap: 2.67vw; margin-bottom: 10.67vw;}
@@ -132,7 +132,7 @@
 .melareturn .sec-05 .skin-type-wrap .comparison-list > li{gap: 5.33vw;}
 .melareturn .sec-05 .skin-type-wrap .comparison-list > li .comparison-img-wrap{position: relative; border: 0.53vw solid #fff; border-radius: 8.00vw;}
 .melareturn .sec-05 .skin-type-wrap .comparison-list > li .comparison-img-wrap.before .txt-wrap{background-color: #fff;}
-.melareturn .sec-05 .skin-type-wrap .comparison-list > li .comparison-img-wrap .txt-wrap{position: absolute; bottom: 0; left: 0; padding: 3.20vw 8.00vw; min-width: 30.40vw; font-family: 'Gmarket Sans', sans-serif; text-align: center; line-height: 1; border-top-right-radius: 8.00vw;}
+.melareturn .sec-05 .skin-type-wrap .comparison-list > li .comparison-img-wrap .txt-wrap{position: absolute; bottom: 0; left: 0; padding: 3.20vw 8.00vw; min-width: 30.40vw; font-family: 'GmarketSans', sans-serif; text-align: center; line-height: 1; border-top-right-radius: 8.00vw;}
 .melareturn .sec-05 .skin-type-wrap .comparison-list > li .comparison-img-wrap .img-wrap::before{padding-top: 73%;}
 .melareturn .sec-05 .skin-type-wrap .comparison-list > li .comparison-img-wrap .color-list{
 	display: flex; width: 100%; height: 16.00vw;
@@ -182,7 +182,7 @@
 .melareturn .sec-07 .type-list li:nth-child(2) .img-wrap{border: 0.53vw solid #DDEFFB;}
 .melareturn .sec-07 .type-list li:nth-child(3) .img-wrap{border: 0.53vw solid #BCE0F6;}
 .melareturn .sec-07 .type-list li .tit-wrap{padding: 8.00vw; border-radius: 8.00vw 8.00vw 0 0;}
-.melareturn .sec-07 .type-list li .tit-wrap .tit{font-family: 'Gmarket Sans', sans-serif; font-size: 4.80vw; font-weight: 700;}
+.melareturn .sec-07 .type-list li .tit-wrap .tit{font-family: 'GmarketSans', sans-serif; font-size: 4.80vw; font-weight: 700;}
 .melareturn .sec-07 .type-list li .tit-wrap .desc{margin-top: 2.67vw; font-size: 3.73vw;}
 .melareturn .sec-07 .type-list li .img-wrap{padding: 8.00vw; border-radius:  0 0 8.00vw 8.00vw}
 .melareturn .sec-07 .type-list li .img-wrap .txt{padding: 1.60vw 5.33vw; width: fit-content; font-size: 3.73vw; font-weight: 700; color: #fff; background-color: #34425C; border-radius: 26.67vw;}
@@ -197,7 +197,7 @@
 
 .melareturn .sec-09 .info-wrap .txt-list li{margin-bottom: 5.33vw; padding: 8.00vw; font-size: 4.27vw; background: linear-gradient(90deg,rgba(221, 239, 251, 1) 0%, rgba(221, 239, 251, 0) 100%); border-radius: 5.33vw;}
 .melareturn .sec-09 .info-wrap .txt-list li strong{font-size: 6.40vw;}
-.melareturn .sec-09 .info-wrap .txt-list li .num{display: flex; align-items: center; justify-content: center; margin-bottom: 2.67vw; width: 16.00vw; height: 16.00vw; font-family: 'Gmarket Sans', sans-serif; font-size: 5.33vw; font-weight: 700; color: rgba(52, 66, 92, 0.7); background-color: #fff; border-radius: 50%;}
+.melareturn .sec-09 .info-wrap .txt-list li .num{display: flex; align-items: center; justify-content: center; margin-bottom: 2.67vw; width: 16.00vw; height: 16.00vw; font-family: 'GmarketSans', sans-serif; font-size: 5.33vw; font-weight: 700; color: rgba(52, 66, 92, 0.7); background-color: #fff; border-radius: 50%;}
 .melareturn .sec-09 .info-wrap .img-wrap{overflow: hidden; position: relative; flex: 1; border-radius: 5.33vw;}
 .melareturn .sec-09 .info-wrap .img-wrap::before{content: ''; display: block; width: 100%; padding-top: 95.5%;}
 .melareturn .sec-09 .info-wrap .img-wrap img{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
@@ -223,4 +223,4 @@
 .melareturn .sec-12{@include bg('sec12-bg.jpg');}
 .melareturn .sec-12 .caution-list li{display: flex; align-items: center; gap: 5.33vw; margin-bottom: 1.07vw; padding: 2.67vw; font-size: 4.27vw; font-weight: 500; border-radius: 13.33vw; background-color: rgba(255, 255, 255, 0.4); word-break: keep-all;}
 .melareturn .sec-12 .caution-list li:last-child{margin-bottom: 0;}
-.melareturn .sec-12 .caution-list li .num{display: flex; align-items: center; justify-content: center; width: 13.33vw; height: 13.33vw; font-family: 'Gmarket Sans', sans-serif; font-size: 3.73vw; font-weight: 700; background-color: #fff; border-radius: 50%;}
+.melareturn .sec-12 .caution-list li .num{display: flex; align-items: center; justify-content: center; width: 13.33vw; height: 13.33vw; font-family: 'GmarketSans', sans-serif; font-size: 3.73vw; font-weight: 700; background-color: #fff; border-radius: 50%;}

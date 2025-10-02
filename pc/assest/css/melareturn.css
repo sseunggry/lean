@@ -168,19 +168,19 @@ cite {
 }
 @font-face {
   font-family: "Paperlogy";
-  src: url("../font/Paperlogy-3Light.woff") format("woff");
+  src: url("../font/Paperlogy-3Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: "Paperlogy";
-  src: url("../font/Paperlogy-4Regular.woff") format("woff");
+  src: url("../font/Paperlogy-4Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Paperlogy";
-  src: url("../font/Paperlogy-6Semibold.woff") format("woff");
+  src: url("../font/Paperlogy-6Semibold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
@@ -316,7 +316,7 @@ cite {
   padding: 14px 30px;
   margin: 0 auto 20px;
   width: fit-content;
-  font-family: "Gmarket Sans", sans-serif;
+  font-family: "GmarketSans", sans-serif;
   font-size: 20px;
   font-weight: 700;
   color: #fff;
@@ -348,11 +348,11 @@ cite {
 }
 
 .melareturn .f-paperlogy {
-  font-family: "paperlogy", sans-serif;
+  font-family: "Paperlogy", sans-serif;
 }
 
 .melareturn .f-shiningstar {
-  font-family: "Cafe24 Shiningstar", sans-serif;
+  font-family: "Cafe24Shiningstar", sans-serif;
 }
 
 .melareturn .blind {
@@ -368,7 +368,7 @@ cite {
 }
 
 .melareturn .deco-txt {
-  font-family: "Gmarket Sans", sans-serif;
+  font-family: "GmarketSans", sans-serif;
   font-size: 120px;
   font-weight: 700;
   color: rgba(52, 66, 92, 0.2);
@@ -773,7 +773,7 @@ cite {
   left: 0;
   padding: 16px 40px;
   min-width: 180px;
-  font-family: "Gmarket Sans", sans-serif;
+  font-family: "GmarketSans", sans-serif;
   text-align: left;
   border-top-right-radius: 30px;
 }
@@ -975,7 +975,7 @@ cite {
 }
 
 .melareturn .sec-07 .type-list li .tit-wrap .tit {
-  font-family: "Gmarket Sans", sans-serif;
+  font-family: "GmarketSans", sans-serif;
   font-size: 24px;
   font-weight: 700;
 }
@@ -1081,7 +1081,7 @@ cite {
   justify-content: center;
   width: 80px;
   height: 80px;
-  font-family: "Gmarket Sans", sans-serif;
+  font-family: "GmarketSans", sans-serif;
   font-size: 28px;
   font-weight: 700;
   color: rgba(52, 66, 92, 0.7);
@@ -1277,7 +1277,7 @@ cite {
   justify-content: center;
   width: 60px;
   height: 60px;
-  font-family: "Gmarket Sans", sans-serif;
+  font-family: "GmarketSans", sans-serif;
   font-size: 18px;
   font-weight: 700;
   background-color: #fff;
