@@ -2,20 +2,20 @@
 @use 'variables' as *;
 
 @mixin font($family, $name, $type, $weight) {
-    $file-extension: $type;
+	$file-format: $type;
 
-    @if ($type == 'opentype') {
-        $file-extension: 'otf';
-    } @else if ($type == 'truetype') {
-        $file-extension: 'ttf';
-    }
+	@if ($type == 'otf') {
+			$file-format: 'opentype';
+	} @else if ($type == 'ttf') {
+			$file-format: 'truetype';
+	}
 
-    $url: $base-url + 'font/' + $name + '.' + $file-extension;
+	$url: $base-url + 'font/' + $name + '.' + $type;
 
-    font-family: '#{$family}';
-    src: url($url) format($type);
-    font-weight: $weight;
-    font-style: normal;
+	font-family: '#{$family}';
+	src: url($url) format($file-format);
+	font-weight: $weight;
+	font-style: normal;
 }
 
 @mixin bg($url, $pos: center, $size: cover, $color: null) {
